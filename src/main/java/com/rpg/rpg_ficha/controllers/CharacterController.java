@@ -28,10 +28,7 @@ public class CharacterController {
     public void deleteCharacter(@PathVariable Long id){
         characterService.deleteCharacter(id);
     }
-    @PostMapping
-    public CharacterModel saveCharacter(@RequestBody CharacterModel characterModel){
-        return characterService.saveCharacter(characterModel);
-    }
+
 
 
 }
