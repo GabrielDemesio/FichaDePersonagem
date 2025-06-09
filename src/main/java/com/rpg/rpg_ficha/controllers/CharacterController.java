@@ -10,7 +10,7 @@ import jakarta.validation.Valid;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/personagens")
+@RequestMapping("/personagens")
 public class CharacterController {
 
     @Autowired
